@@ -1,0 +1,148 @@
+[gd_scene load_steps=34 format=3 uid="uid://dub2v6osyehdk"]
+
+[ext_resource type="Texture2D" uid="uid://crueyiw5sm68i" path="res://Assets/Tileset/Coins/Gold/Gold_1.png" id="1_ad1l1"]
+[ext_resource type="Script" path="res://Objects/Coins/GoldCoin.gd" id="1_ggkap"]
+[ext_resource type="Texture2D" uid="uid://vue5r3ou5idm" path="res://Assets/Tileset/Coins/Gold/Gold_2.png" id="2_rq5s4"]
+[ext_resource type="Texture2D" uid="uid://l6grah2yosh8" path="res://Assets/Tileset/Coins/Gold/Gold_3.png" id="3_qqh1s"]
+[ext_resource type="Texture2D" uid="uid://byamoki3nq2q0" path="res://Assets/Tileset/Coins/Gold/Gold_4.png" id="4_gysi1"]
+[ext_resource type="Texture2D" uid="uid://dlbx72u153o4k" path="res://Assets/Tileset/Coins/Gold/Gold_5.png" id="5_501jw"]
+[ext_resource type="Texture2D" uid="uid://er57g41gbld5" path="res://Assets/Tileset/Coins/Gold/Gold_6.png" id="6_qughl"]
+[ext_resource type="Texture2D" uid="uid://lg5xn03shnvk" path="res://Assets/Tileset/Coins/Gold/Gold_7.png" id="7_rkj7d"]
+[ext_resource type="Texture2D" uid="uid://luu7vj1i5k5f" path="res://Assets/Tileset/Coins/Gold/Gold_8.png" id="8_yo0ht"]
+[ext_resource type="Texture2D" uid="uid://bhgtqn2l5nffe" path="res://Assets/Tileset/Coins/Gold/Gold_9.png" id="9_msvwv"]
+[ext_resource type="Texture2D" uid="uid://cftwu85u48fvq" path="res://Assets/Tileset/Coins/Gold/Gold_10.png" id="10_rdakj"]
+[ext_resource type="Texture2D" uid="uid://bpw4yb3molh30" path="res://Assets/Tileset/Coins/Gold/Gold_11.png" id="11_pqx72"]
+[ext_resource type="Texture2D" uid="uid://b3tw6bw7x2abn" path="res://Assets/Tileset/Coins/Gold/Gold_12.png" id="12_k2lba"]
+[ext_resource type="Texture2D" uid="uid://csgauv2ahnsgn" path="res://Assets/Tileset/Coins/Gold/Gold_13.png" id="13_u06lx"]
+[ext_resource type="Texture2D" uid="uid://c1qpd6iruvndu" path="res://Assets/Tileset/Coins/Gold/Gold_14.png" id="14_8gcmd"]
+[ext_resource type="Texture2D" uid="uid://chrfiiimyb3mj" path="res://Assets/Tileset/Coins/Gold/Gold_15.png" id="15_vrxio"]
+[ext_resource type="Texture2D" uid="uid://cir107q1atta2" path="res://Assets/Tileset/Coins/Gold/Gold_16.png" id="16_rua4s"]
+[ext_resource type="Texture2D" uid="uid://ol1wnlnhvuj1" path="res://Assets/Tileset/Coins/Gold/Gold_17.png" id="17_ui320"]
+[ext_resource type="Texture2D" uid="uid://bv7hp4v28wm24" path="res://Assets/Tileset/Coins/Gold/Gold_18.png" id="18_1dngx"]
+[ext_resource type="Texture2D" uid="uid://rwiopsw5mcn0" path="res://Assets/Tileset/Coins/Gold/Gold_19.png" id="19_06t74"]
+[ext_resource type="Texture2D" uid="uid://cqhs5bg6lyej3" path="res://Assets/Tileset/Coins/Gold/Gold_20.png" id="20_u68kh"]
+[ext_resource type="Texture2D" uid="uid://6nat1b78kygg" path="res://Assets/Tileset/Coins/Gold/Gold_21.png" id="21_qakdl"]
+[ext_resource type="Texture2D" uid="uid://cjg3qid6ldg61" path="res://Assets/Tileset/Coins/Gold/Gold_22.png" id="22_q3v25"]
+[ext_resource type="Texture2D" uid="uid://d0g81c0st8jp8" path="res://Assets/Tileset/Coins/Gold/Gold_23.png" id="23_f2scb"]
+[ext_resource type="Texture2D" uid="uid://blpmpnmog5jdj" path="res://Assets/Tileset/Coins/Gold/Gold_24.png" id="24_r3838"]
+[ext_resource type="Texture2D" uid="uid://cof8nrke4ras3" path="res://Assets/Tileset/Coins/Gold/Gold_25.png" id="25_lggyo"]
+[ext_resource type="Texture2D" uid="uid://2jqg47ojg6yf" path="res://Assets/Tileset/Coins/Gold/Gold_26.png" id="26_blqrc"]
+[ext_resource type="Texture2D" uid="uid://d2e2wff3xtq5n" path="res://Assets/Tileset/Coins/Gold/Gold_27.png" id="27_4aje2"]
+[ext_resource type="Texture2D" uid="uid://cro4sbb4a7nuy" path="res://Assets/Tileset/Coins/Gold/Gold_28.png" id="28_5or0a"]
+[ext_resource type="Texture2D" uid="uid://5m65xofe5g81" path="res://Assets/Tileset/Coins/Gold/Gold_29.png" id="29_2k5rd"]
+[ext_resource type="Texture2D" uid="uid://ctyasylborcgy" path="res://Assets/Tileset/Coins/Gold/Gold_30.png" id="30_eg7vv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ji7eu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ad1l1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_rq5s4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qqh1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_gysi1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_501jw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qughl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_rkj7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yo0ht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_msvwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_rdakj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_pqx72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_k2lba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_u06lx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_8gcmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_vrxio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rua4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ui320")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_1dngx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_06t74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_u68kh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_qakdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_q3v25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_f2scb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_r3838")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_lggyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_blqrc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_4aje2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_5or0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_2k5rd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_eg7vv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_42ytn"]
+radius = 14.0
+
+[node name="GoldCoin" type="CharacterBody2D"]
+collision_layer = 8
+script = ExtResource("1_ggkap")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 2.86102e-06)
+scale = Vector2(0.0501776, 0.0501776)
+sprite_frames = SubResource("SpriteFrames_ji7eu")
+autoplay = "default"
+frame_progress = 0.864135
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_42ytn")
